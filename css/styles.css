@@ -271,7 +271,7 @@ background: #000;
 #hero-banner{
   overflow: hidden;
   height: 700px;
-  background: url('https://raw.githubusercontent.com/stardust-web/StadustWebsite/main/static/images/earth.jpg');
+  /* background: url('https://raw.githubusercontent.com/stardust-web/StadustWebsite/main/static/images/earth.jpg'); */
   background-size:cover;
   color:#fff;
 }
@@ -411,7 +411,7 @@ padding-top: 10px;
 }
 #portfolio {
   padding: 100px 0;
-  background: #000;
+  /* background: #000; */
   /* background: url('../images/img4.jpg'); */
   background-size: cover;
 }
@@ -561,11 +561,12 @@ transition: all .2s ease-in-out;
 margin-bottom: 15px;
 }
 #testimonial {
-  background: #222222;
+  /* background: #222222; */
   background-size: cover;
   padding: 100px 0;
   color: #fff;
-  background: url('../images/img3.jpg');
+  /* background: url('../images/img3.jpg'); */
+  /* background-color: #000; */
   background-size: cover;
 }
 #testimonial h2{
@@ -590,9 +591,12 @@ margin: 0 8px;
 }
 #about {
   padding: 100px 0;
-  background: #07080A;
+  /* background: #07080A; */
+
+
   /* background: url('../images/img2.jpg');     */
-  background-size: cover;  };
+  background-size: cover;
+  }
 
 #about .column-title{
 color:#fff;
@@ -954,7 +958,7 @@ padding: 7px 0 0;
 }
 }
 
-/* <--new css added here--> */
+/* <--new css here--> */
 
 #sponsor_table tr:hover{
   background-color: #085C98;
@@ -985,3 +989,140 @@ padding: 7px 0 0;
   color: #FFF;
 }
 
+.margin-spacing{
+  margin-top: -3em;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+  opacity: 0.5;
+}
+
+#background-video-1{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 1;
+  margin-left: -5em;
+}
+
+.heading_lift{
+  z-index: 2000;
+}
+
+
+
+/* Davins code starts from here*/
+.table-responsive {
+  min-height: .01%;
+  overflow-x: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-toggle{
+    margin-right: 15px;
+  }
+  .sponsor_logo{
+    max-width: 100%;
+    height: auto;
+
+  }
+  .sponsor_logo2{
+    max-width: 65%;
+  height: auto;
+  }
+  .sponsor_logo3{
+    max-width: 70%;
+  height: auto;
+  }
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+}
+.table-responsive > .table {
+    margin-bottom: 0;
+}
+.table-responsive > .table > thead > tr > th,
+.table-responsive > .table > tbody > tr > th,
+.table-responsive > .table > tfoot > tr > th,
+.table-responsive > .table > thead > tr > td,
+.table-responsive > .table > tbody > tr > td,
+.table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+} 
+}
+
+@media only screen and (max-width: 413px) {
+  .navbar-toggle{
+    margin-right: 5px;
+  }
+  .sponsor_logo{
+    max-width: 50%;
+    height: auto;
+
+  }
+  .sponsor_logo2{
+    max-width: 65%;
+  height: auto;
+  }
+  .sponsor_logo3{
+    max-width: 70%;
+  height: auto;
+  }
+}
+@media only screen and (max-width: 541px) {
+  .navbar-toggle{
+    margin-right: 10px;
+  }
+  .sponsor_logo{
+    max-width: 50%;
+    height: auto;
+
+  }
+  .sponsor_logo2{
+    max-width: 65%;
+  height: auto;
+  }
+  .sponsor_logo3{
+    max-width: 70%;
+  height: auto;
+  }
+}
+@media only screen and (max-width: 281px) {
+  .navbar-toggle{
+    margin-right: 50px;
+  }
+  .sponsor_logo{
+    max-width: 50%;
+    height: auto;
+
+  }
+  .sponsor_logo2{
+    max-width: 65%;
+  height: auto;
+  }
+  .sponsor_logo3{
+    max-width: 70%;
+  height: auto;
+  }
+  .section-title{
+    display: block;
+  }
+}
