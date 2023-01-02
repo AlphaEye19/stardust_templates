@@ -1232,6 +1232,23 @@ table-responsive {
   .sponsor_logo{
     max-width: 50%;
     height: auto;
+  }
+  .sponsor_logo2{
+    max-width: 65%;
+  height: auto;
+  }
+  .sponsor_logo3{
+    max-width: 70%;
+  height: auto;
+  }
+}
+@media only screen and (max-width: 281px) {
+  .navbar-toggle{
+    margin-right: 50px;
+  }
+  .sponsor_logo{
+    max-width: 50%;
+    height: auto;
 
   }
   .sponsor_logo2{
