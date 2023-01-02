@@ -271,7 +271,7 @@ background: #000;
 #hero-banner{
   overflow: hidden;
   height: 700px;
-  /* background: url('https://raw.githubusercontent.com/stardust-web/StadustWebsite/main/static/images/earth.jpg'); */
+  background: url('https://raw.githubusercontent.com/stardust-web/StadustWebsite/main/static/images/earth.jpg');
   background-size:cover;
   color:#fff;
 }
@@ -958,7 +958,10 @@ padding: 7px 0 0;
 }
 }
 
-/* <--new css here--> */
+
+
+/*               <--new css here-->                           */
+
 
 #sponsor_table tr:hover{
   background-color: #085C98;
@@ -1007,26 +1010,60 @@ padding: 7px 0 0;
 }
 
 #background-video-1{
+  /* height: auto;
+  width: 100%;  */
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  /* position: fixed; */
+  /* position: fixed; 
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
+  bottom: 0; */
   z-index: -1;
   opacity: 1;
-  margin-left: -5em;
+  /* margin-left: -5em; */
 }
 
-.heading_lift{
-  z-index: 2000;
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.popup_window{
+  background-color: chartreuse;
+}
+
+.upper_modal_heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.upper_modal_heading h1{
+  margin: auto 0.3em;
+}
+/* #myBtn_close{
+  height: 10%;
+} */
+
+.btn{
+  border-radius: 2em;
 }
 
 
 
 /* Davins code starts from here*/
+
+
 .table-responsive {
   min-height: .01%;
   overflow-x: auto;
@@ -1056,6 +1093,7 @@ padding: 7px 0 0;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
 }
+
 .table-responsive > .table {
     margin-bottom: 0;
 }
@@ -1066,7 +1104,8 @@ padding: 7px 0 0;
 .table-responsive > .table > tbody > tr > td,
 .table-responsive > .table > tfoot > tr > td {
     white-space: nowrap;
-} 
+}
+
 }
 
 @media only screen and (max-width: 413px) {
