@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeBtn2 = document.getElementById("myBtn_close2");
     const closeBtn3 = document.getElementById("myBtn_close3");
 
+    // opens modal ->
     clickedBtn1.addEventListener('click',()=>{
         $("#myModal").modal();
     });
@@ -25,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         $("#myModal3").modal();
     });
 
+    // closes modal ->
     closeBtn1.addEventListener('click',()=>{
         $("#myModal").modal('hide');
       });
