@@ -52,7 +52,7 @@ hr {
   background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
 }
 .section-header {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .section-header p{
 text-align:center;
@@ -688,7 +688,7 @@ line-height: 22px;
 }
 .single-testimonial img{
 	border-radius: 5px;
-	opacity: 0.6;
+	opacity: 0.9;
 }
 .single-testimonial h5{
 	padding: 8px 0 0px;
@@ -969,6 +969,11 @@ padding: 7px 0 0;
   background-color: #085C98;
 }
 
+#sponsor_table{
+  cursor: pointer;
+
+}
+
 .our_sponsors{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -977,16 +982,19 @@ padding: 7px 0 0;
 
 .sponsor_logo{
   width: 15em;
+  cursor: pointer;
 }
 
 .sponsor_logo2{
   padding-top: 25%;
   width: 10em;
+  cursor: pointer;
 }
 
 .sponsor_logo3{
   padding-top: 19%;
   width: 14em;
+  cursor: pointer;
 }
 
 .increase_text_size{
@@ -1076,15 +1084,122 @@ padding: 7px 0 0;
   list-style-type: circle;
 }
 
+.testimonial-area img{
+  margin: 10px;
+}
+
+.gallery-section{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  max-width: 100%;
+}
+
+/* .gallery-card{
+  margin: 5px;
+} */
+
+.gallery-card img:hover{
+  border: 1.5px solid #eeeeee;
+  border-radius: 5px;
+}
+
+.gallery-card img{
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.members{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: auto;
+}
+
+.members-card{
+  padding: 1em;
+}
+
+.members img{
+  margin: auto;
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.members-info{
+  background-color: #000000;
+  max-width: 250px;
+  margin: 2em;
+  border-radius: 5px;
+}
+
+.members-info h3,h4{
+  color: #fff;
+}
+
+.members h3 {
+  font-size: 20px;
+}
+
+.members h4 {
+  font-size: 15px;
+}
+
+.single-testimonial blockquote:hover{
+  border: 1px solid #eeeeee;
+  border-radius: 20px; 
+}
+
+.single-testimonial blockquote{
+  cursor: pointer;
+}
+
+
+
 @media only screen and (max-width:768px) {
   .contact-details{
     grid-template-columns: repeat(1,1fr);
   }
+ 
+  .gallery-section{
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+  }
+
+  .gallery-card img{
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+    border-radius: 0.7em;
+  }
+
+  .members{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .members img{
+    height: 150px;
+  }  
+
+
 }
 
-.testimonial-area img{
-  margin: 10px;
+@media only screen and (max-width:386px){
+
+  .testimonial-area img{
+    width: 200px;
+    height: 125px;
+  }
+
+  .section-header .section-title {
+    font-size: 30px;
+  }
+  
 }
+
+
+
+
 
 
 
