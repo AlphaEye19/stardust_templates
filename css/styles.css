@@ -1115,9 +1115,15 @@ padding: 7px 0 0;
   border-radius: 5px;
 }
 
+.gallery-card{
+  margin: 0.4em auto;
+}
+
 .gallery-card img{
   border-radius: 5px;
   cursor: pointer;
+  height: 200px;
+  width: 270px;
 }
 
 .members{
@@ -1146,7 +1152,7 @@ padding: 7px 0 0;
 }
 
 .members-info h3,h4{
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .members h3 {
@@ -1165,6 +1171,60 @@ padding: 7px 0 0;
 .single-testimonial blockquote{
   cursor: pointer;
 }
+
+.media-heading{
+  color: #000;
+}
+
+.btn-light{
+  color: #000;
+}
+
+.iac-info-year{
+  margin: 3em;
+}
+
+.btn-light:hover{
+  color: #000000;
+  font-weight: 600;
+}
+
+.iac-info h3{
+  color: white;
+}
+
+.modal-title{
+  font-size: 1.5em;
+}
+
+.close{
+  margin-top: -1.2em;
+}
+
+.iac-info-chart{
+  margin-left: -1.5em;
+}
+
+.iac-intro{
+  font-size: 1.25em;
+  color: white;
+}
+
+.iac-info-heading{
+  font-size: 15px;
+  font-weight: 800;
+  list-style: none;
+}
+
+.iac-info-topic{
+  margin-left: 1.5em;
+  list-style-type: disc;
+  font-weight: 500;
+}
+
+
+
+
 
 
 
