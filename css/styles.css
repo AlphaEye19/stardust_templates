@@ -139,7 +139,7 @@ border-radius: 0;
 }
 
 .navbar-brand img{
-  width: 3em;
+  width: 11em;
   /* height: 10px; */
 }
 
@@ -1222,7 +1222,23 @@ padding: 7px 0 0;
   font-weight: 500;
 }
 
+.about-us-info{
+  color: white;
+  margin-left: -2.5em;
+  margin-top: 1em;
+}
 
+#about img{
+  max-width: 100%;
+}
+
+.about-us-info li{
+  list-style: none;
+}
+
+.about-us-text{
+  font-size: 1.2em;
+}
 
 
 
